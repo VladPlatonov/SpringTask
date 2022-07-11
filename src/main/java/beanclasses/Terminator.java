@@ -1,4 +1,4 @@
-package main.beanclasses;
+package beanclasses;
 
 
 
@@ -23,9 +23,9 @@ public class Terminator {
         System.out.println("Create bean Terminator..." );
     }
 
-    public  void  sayMyName(){
+    public String sayMyName(){
 
-        System.out.println("My nameeeeeee is "+getName());
+       return "My nameeeeeee is "+getName();
     }
     public void destroy(){
         System.out.println("Destroy bean Terminator..." );

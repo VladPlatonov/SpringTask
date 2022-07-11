@@ -1,6 +1,7 @@
-package main.classeswithinjectbean;
+package classeswithinjectbean;
 
-import main.beanclasses.Terminator;
+import beanclasses.Terminator;
+import beanclasses.Terminator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

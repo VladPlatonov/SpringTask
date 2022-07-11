@@ -1,14 +1,13 @@
-package main.springcontext;
+package springcontext;
 
 
-import main.beanclasses.Terminator;
+import beanclasses.Terminator;
 import org.springframework.context.annotation.*;
 
 import javax.sql.DataSource;
 
 @Configuration
-@ComponentScan("main")
-@PropertySource("classpath:main/resource/context.properties")
+@ComponentScan(basePackages = { "classeswithinjectbean"  })
 public class JavaConfig {
 
     @Bean(initMethod = "init", destroyMethod = "destroy")
