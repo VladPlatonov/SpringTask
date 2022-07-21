@@ -17,6 +17,13 @@ public class User {
 
     private String username;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "userId=" + userId +
+                ", username='" + username + '\'' +
+                '}';
+    }
 
     @Tolerate
     public User() {

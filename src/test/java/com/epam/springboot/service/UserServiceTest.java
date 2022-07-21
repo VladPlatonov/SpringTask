@@ -2,8 +2,6 @@ package com.epam.springboot.service;
 
 import com.epam.springboot.entity.User;
 import com.epam.springboot.repository.UserRepo;
-import com.epam.springboot.testcircular.TestConfig;
-import com.epam.springboot.testcircular.TestResolveConfig;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.jupiter.api.BeforeAll;
